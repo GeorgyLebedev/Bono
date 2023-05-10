@@ -1,0 +1,115 @@
+.header {
+    color: #0A2756;
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    min-height: 43px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerContainer{
+    display: flex;
+    height: inherit
+}
+.logo span{
+    margin-right: 7px;
+}
+@media only screen and (min-width: 1240px) {
+    .header {
+        margin-inline: 52px;
+        margin-top: 11px;
+        margin-bottom: 10px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        font-size: 29px;
+        margin-top:1px;
+        padding-right: 25px;
+        margin-right: 25px;
+        border-right: 1px solid #C4C4C4;
+    }
+    .navContainer a {
+        text-decoration: none;
+        color: #0A2756;
+        letter-spacing: 0.02rem;
+    }
+
+    .navContainer {
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        width:750px;
+        justify-content: space-between;
+        height: inherit;
+        font-size: 16px;
+    }
+
+    .icons {
+        visibility: visible;
+        margin-right: 3px;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 62px;
+    }
+    .menu{
+        visibility: hidden;
+        display: none;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 1240px) {
+    .header{
+        margin-top: 12px;
+        margin-bottom: 9px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        font-size: 29px;
+        margin-left: 27px;
+    }
+    .navContainer{
+        visibility: hidden;
+        display: none;
+    }
+    .icons{
+        visibility: hidden;
+        display: none;
+    }
+    .menu{
+        margin-right: 28px;
+        visibility: visible;
+        display: block
+    }
+}
+@media only screen and (max-width: 750px){
+    .header{
+        margin-top: 12px;
+        margin-bottom: 9px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        height: inherit;
+        font-size: 29px;
+        margin-left: 20px;
+    }
+    .navContainer{
+        visibility: hidden;
+        display: none;
+    }
+    .icons{
+        visibility: hidden;
+        display: none;
+    }
+    .menu{
+        margin-right: 20px;
+        visibility: visible;
+        display: block
+    }
+}

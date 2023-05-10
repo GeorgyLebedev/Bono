@@ -1,0 +1,178 @@
+.itemLabel {
+    background-color: rgba(0, 128, 255, 0.7);
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #E4E4E4;
+    background: #002257;
+}
+@media only screen and (min-width: 1240px) {
+    .contentBlock4 {
+        margin-top: 173px;
+        padding-bottom: 174px;
+    }
+    .swiper-pagination-bullet {
+        margin-right: 26px!important;
+    }
+    .title4 {
+        font-size: 60px;
+        margin-left: 221px;
+    }
+    .swiper4{
+        width: 840px;
+        height: 450px;
+        margin-top: 55px;
+        margin-left: 0;
+    }
+    .swiperContainer4{
+        display: flex;
+        align-items: center;
+    }
+    .buttonPrev4{
+        margin-left: 76px;
+        margin-bottom: 10px;
+    }
+    .buttonNext4{
+        margin-right: 76px;
+        margin-bottom: 10px;
+    }
+    .swiper-slide4{
+        width: 420px!important;
+    }
+    .slideItem {
+        position: relative;
+        display: flex;
+        margin-inline: 21px;
+    }
+
+    .itemLabel {
+        width: 379px;
+        height: 111px;
+        padding-left: 30px;
+    }
+
+    .speakerName {
+        margin-top: 25px;
+        font-size: 23px;
+        letter-spacing: 0.07em;
+    }
+
+    .companyName {
+        margin-top: 15px;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+    }
+
+    .swiperArrow4 {
+        width: 31px;
+        margin-inline: 46px;
+        margin-bottom: 19px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1240px) {
+    .contentBlock4 {
+        margin-top: 95px;
+        padding-bottom: 111px;
+    }
+    .title4 {
+        font-size: 50px;
+        margin-left: 72px;
+    }
+    .swiperContainer4{
+        display: flex;
+        align-items: center;
+        margin-top: 68px;
+    }
+    .swiper4{
+        height: 379px;
+    }
+    .slideItem {
+        position: relative;
+        display: flex;
+        margin-inline: 19px;
+    }
+    .slideItem img{
+        width: 294px;
+    }
+    .swiper-pagination-bullet {
+        margin-right: 26px!important;
+    }
+    .itemLabel {
+        width: 293px;
+        height: 29%;
+        padding-left: 25px;
+    }
+    .speakerName {
+        margin-top: 10px;
+        font-size: 23px;
+        letter-spacing: 0.07em;
+    }
+
+    .companyName {
+        margin-top: 15px;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+    }
+    .swiperArrow4 {
+        width: 30px;
+        margin-inline: 12px;
+        margin-bottom: 104px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .contentBlock4 {
+        margin-top: 22px;
+        padding-bottom: 161px;
+    }
+    .title4 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .swiper-wrapper4{
+        margin-top:54px;
+        margin-left: 20px;
+        height: 347px;
+    }
+    .slideItem {
+        position: relative;
+        display: flex;
+    }
+    .slideItem img{
+        width: 280px;
+    }
+    .itemLabel {
+        width: 280px;
+        height: 30%;
+        padding-left: 22px;
+    }
+    .speakerName {
+        margin-top: 20px;
+        font-size: 17px;
+        letter-spacing: 0.07em;
+    }
+
+    .companyName {
+        margin-top: 10px;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+    }
+    .swiperArrow4, .mobileHidden{
+        display: none;
+        visibility: hidden;
+    }
+}

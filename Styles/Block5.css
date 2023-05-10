@@ -1,0 +1,108 @@
+.contentBlock5 {
+    display: flex;
+}
+
+@media only screen and (min-width: 1240px) {
+    .contentBlock5 {
+        flex-direction: row;
+        padding-top: 146px;
+        padding-left: 228px;
+        padding-bottom: 181px;
+    }
+
+    .title5 {
+        font-size: 60px;
+        line-height: 140%;
+        margin-bottom: 30px;
+    }
+
+    .leftContent5 span {
+        display: block;
+        font-size: 18px;
+        letter-spacing: 0.045em;
+        line-height: 140%;
+    }
+
+    .materials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 850px;
+    }
+
+    .leftContent5 {
+        max-width: 595px;
+    }
+
+    .rightImage5 {
+        margin-left: 42px;
+        margin-bottom: 268px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1240px) {
+    .contentBlock5 {
+        flex-direction: row;
+        padding-top: 99px;
+        padding-left: 73px;
+        padding-bottom: 121px;
+    }
+    .title5{
+        font-size: 50px;
+        line-height: 140%;
+        margin-bottom: 44px;
+    }
+    .leftContent5 span {
+        display: block;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        line-height: 140%;
+    }
+    .materials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1150px;
+    }
+    .leftContent5 {
+        max-width: 395px;
+    }
+    .rightImage5 {
+        width: 224px;
+        margin-left: 48px;
+        margin-bottom: 81px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contentBlock5 {
+        flex-direction: column-reverse;
+        margin-left: 20px;
+        padding-bottom: 85px;
+    }
+    .title5{
+        font-size: 40px;
+        line-height: 140%;
+        margin-bottom: 67px;
+    }
+    .leftContent5 span {
+        display: block;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        line-height: 140%;
+    }
+    .materials {
+        margin-left: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1375px;
+    }
+    .leftContent5 {
+        max-width: 275px;
+    }
+    .rightImage5 {
+        width: 169px;
+        margin-top: -64px;
+        margin-left: 56px;
+        margin-bottom: 64px;
+    }
+}

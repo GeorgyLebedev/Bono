@@ -1,0 +1,57 @@
+@media only screen and (min-width: 1240px) {
+    .topImg {
+        margin-left: 54px;
+        margin-top: -150px;
+    }
+
+    .contentBlock7 {
+        margin-top: 24px;
+        margin-left: 217px;
+        padding-bottom: 57px
+    }
+
+    .companies7 {
+        margin-left: -2px;
+        margin-top: -6px;
+        padding-bottom: 163px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1240px) {
+    .topImg {
+        width: 188px;
+        margin-left: 34px;
+        margin-top: -94px;
+    }
+
+    .contentBlock7 {
+        margin-top: 42px;
+        margin-left: 75px;
+        padding-bottom: 54px
+    }
+
+    .companies7 {
+        margin-left: -2px;
+        margin-top: 2px;
+        padding-bottom: 148px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .topImg {
+        width: 163px;
+        margin-left: 78px;
+        margin-top: -40px;
+    }
+
+    .contentBlock7 {
+        margin-top: 62px;
+        margin-left: 20px;
+        padding-bottom: 59px
+    }
+
+    .companies7 {
+        margin-top: 51px;
+        padding-bottom: 113px
+    }
+}

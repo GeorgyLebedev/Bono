@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../Fonts/HelveticaNeueCyr-Light 400.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: "Helvetica Neue";
+    font-weight: 600;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 1240px) {
+    .root{
+        width: 1240px;
+    }
+      .title{
+    font-size: 60px;
+}
+    .deskVisible{
+        visibility: visible;
+        display: block;
+    }
+    .mobileVisible{
+        visibility: hidden;
+        display: none;
+    }
+    .tabletVisible{
+        visibility: hidden;
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1240px){
+    .root{
+        width: 768px;
+    }
+    .title{
+        font-size: 50px;
+    }
+     .deskVisible{
+        visibility: hidden;
+        display: none;
+    }
+     .mobileVisible{
+        visibility: hidden;
+        display: none;
+    }
+    .tabletVisible{
+        visibility: visible;
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px){
+    .root{
+        width: 320px;
+    }
+    .title{
+        font-size: 40px;
+    }
+     .deskVisible{
+        visibility: hidden;
+        display: none;
+    }
+       .mobileVisible{
+         visibility: visible;
+        display: block;
+    }
+    .tabletVisible{
+        visibility: hidden;
+        display: none;
+    }
+}
+.fontLight{
+    font-weight: 500;
+}
+.fontDefault{
+    font-weight: 600;
+}
+.fontBold{
+    font-weight: 700;
+}
+.pointer{
+    cursor: pointer;
+}
+.blockDark{
+    background-color: #002257;
+    color: #FFFFFF
+}
+.blockLight{
+    background-color: #FFFFFF;
+    color:#002257;
+}
+.title{
+    line-height: 140%;
+    font-weight: 500;
+}
+.invalidField{
+    border: 3px solid #FB5555!important;
+}
+.buttonOutline {
+    letter-spacing: 0.02rem;
+    margin-top: 1px;
+    background-color: white;
+    border: 1px solid #007DFE;
+    color: #007DFE;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-inline: 32px;
+    font-size: 16px;
+}
